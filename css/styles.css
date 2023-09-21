@@ -87,7 +87,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-navigation:first-child {
+.team .container {
   display: flex;
 }
 
@@ -124,6 +124,7 @@ nav a {
   color: #434455;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .navigation-list .menu-link {
@@ -141,6 +142,11 @@ nav a {
 }
 
 /*============ Contacts ============ */
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
 .contacts-list-item {
   display: flex;
   align-items: flex-start;
@@ -258,7 +264,7 @@ nav a {
   padding: 120px 156px;
 }
 
-.feature-item:first-child {
+.feature-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -325,6 +331,16 @@ nav a {
   height: 420px;
   gap: 32px;
   flex-shrink: 0;
+}
+
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.section-subtitle-portfolio {
+  margin-bottom: 8px;
 }
 
 /*============ Footer ============ */
