@@ -87,7 +87,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.team .container {
+.header-navigation .container {
   display: flex;
 }
 
@@ -247,7 +247,7 @@ nav a {
   background-color: #404bbf;
 }
 
-/*============ Feature ============ */
+/*============ Section 1 Feature ============ */
 
 .feature {
   width: 100%;
@@ -268,7 +268,10 @@ nav a {
   width: calc((100% - 72px) / 4);
 }
 
-/*============ Team ============ */
+/*============ Section 2 Team ============ */
+.team .container {
+  display: flex;
+}
 
 .team {
   background-color: #f4f4fd;
@@ -304,7 +307,7 @@ nav a {
   text-align: center;
 }
 
-/*============ Portfolio ============ */
+/*============ Section 3 Portfolio ============ */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
