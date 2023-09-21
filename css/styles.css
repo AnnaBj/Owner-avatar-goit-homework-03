@@ -254,6 +254,10 @@ nav a {
   padding: 120px 156px;
 }
 
+.feature-list:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 .feature-item {
   width: calc((100% - 72px) / 4);
   height: auto;
