@@ -238,7 +238,7 @@ nav a {
 .order-btn:focus {
   background-color: #404bbf;
 }
-/*============ Section 1 Feature ============ */
+/*============ Feature ============ */
 
 .feature {
   width: 100%;
@@ -246,13 +246,13 @@ nav a {
 }
 
 .feature-list {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 24px;
   padding: 120px 156px;
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-item {
@@ -260,7 +260,7 @@ nav a {
   height: auto;
 }
 
-/*============ Section 2 Team ============ */
+/*============ Team ============ */
 .team .container {
   display: flex;
 }
@@ -277,10 +277,6 @@ nav a {
   gap: 24px;
   padding-bottom: 120px;
   padding-top: 72px;
-  width: calc((100% - 72px) / 4);
-}
-
-.team-list:first-child {
   width: calc((100% - 72px) / 4);
 }
 
@@ -304,7 +300,7 @@ nav a {
   text-align: center;
 }
 
-/*============ Section 3 Portfolio ============ */
+/*============ Portfolio ============ */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
