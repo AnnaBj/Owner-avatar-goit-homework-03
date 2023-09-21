@@ -143,7 +143,6 @@ nav a {
   gap: 40px;
 }
 
-
 .contacts-list-link {
   color: #434455;
   font-style: normal;
@@ -200,7 +199,6 @@ nav a {
   font-size: 16px;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
-  
 }
 
 .page-nav .link:hover {
@@ -211,7 +209,6 @@ nav a {
   color: #f4f4fd;
   background: #2e2f42;
   padding: 188px 0;
-  
 }
 
 .order-btn {
@@ -253,11 +250,7 @@ nav a {
   align-items: center;
   gap: 24px;
   padding: 120px 156px;
-}
-
-.feature-item {
   width: calc((100% - 72px) / 4);
-  height: auto;
 }
 
 /*============ Section 2 Team ============ */
@@ -292,7 +285,7 @@ nav a {
 }
 
 .section-subtitle-team {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .section-text-team {
