@@ -277,7 +277,6 @@ nav a {
   gap: 24px;
   padding-bottom: 120px;
   padding-top: 72px;
-  width: calc((100% - 72px) / 4); 
 }
 
 .team-list-item {
