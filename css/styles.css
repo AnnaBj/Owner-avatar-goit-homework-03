@@ -73,6 +73,8 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: flex;
+  align-items: center;
 }
 
 .studio {
@@ -83,18 +85,16 @@ body {
 .header-navigation {
   padding-top: 24px;
   padding-bottom: 24px;
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-navigation .container {
+.container .header-container {
   display: flex;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 nav li {
@@ -108,28 +108,18 @@ nav a {
 
 .navigation-menu {
   display: flex;
-  align-items: center;
+  flex-grow: 1;
 }
 
 .navigation-list {
   display: flex;
-  justify-content: flex-start;
   gap: 40px;
-  padding-right: 156px;
   padding: 24px 0;
 }
 
 .navigation-list-item {
   font-weight: 500;
   color: #434455;
-  display: flex;
-  gap: 40px;
-  padding: 24px 0;
-}
-
-.navigation-list .menu-link {
-  display: block;
-  padding: 24px 0;
 }
 
 .navigation-list-item:hover,
@@ -148,11 +138,6 @@ nav a {
   gap: 40px;
 }
 
-.contacts-list-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-}
 
 .contacts-list-link {
   color: #434455;
@@ -202,7 +187,6 @@ nav a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
   margin-top: 32px;
   margin-bottom: 8px;
 }
@@ -211,6 +195,7 @@ nav a {
   font-size: 16px;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
+  
 }
 
 .page-nav .link:hover {
@@ -221,6 +206,7 @@ nav a {
   color: #f4f4fd;
   background: #2e2f42;
   padding: 188px 0;
+  
 }
 
 .order-btn {
@@ -235,7 +221,7 @@ nav a {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   display: block;
-  align-items: flex-start;
+  align-items: center;
   padding: 16px 32px;
   gap: 10px;
   margin: 48px 635px 188px 636px;
@@ -247,7 +233,6 @@ nav a {
 .order-btn:focus {
   background-color: #404bbf;
 }
-
 /*============ Section 1 Feature ============ */
 
 .feature {
@@ -267,6 +252,7 @@ nav a {
 
 .feature-item {
   width: calc((100% - 72px) / 4);
+  height: auto;
 }
 
 /*============ Section 2 Team ============ */
@@ -298,11 +284,12 @@ nav a {
 .team-member-info {
   padding: 32px 0;
   width: calc((100% - 72px) / 4);
+  text-align: center;
 }
 
 .section-subtitle-team {
-  text-align: center;
-  margin-bottom: 8px;
+    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-text-team {
@@ -352,8 +339,6 @@ nav a {
 .footer {
   background-color: #2e2f42;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   margin: 0 auto;
   padding: 100px 0;
