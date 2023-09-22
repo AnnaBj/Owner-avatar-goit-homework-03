@@ -73,9 +73,6 @@ body {
 }
 /*============ Navigation meny ============ */
 .header-navigation {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -129,6 +126,10 @@ nav a {
   color: #404bbf;
 }
 /*============ Contacts ============ */
+.contacts {
+margin-left: auto;
+}
+
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -142,6 +143,7 @@ nav a {
 .contacts-list-link {
   color: #434455;
   font-style: normal;
+  padding: 24px 0;
 }
 .contacts-list-link {
   color: #434455;
@@ -159,8 +161,8 @@ nav a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  padding: 188px 472px 48px 472px;
   max-width: 496px;
+  margin: 0 auto;
 }
 
 /* Header 2 */
@@ -172,8 +174,6 @@ nav a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
   margin-bottom: 72px;
 }
 
@@ -215,7 +215,8 @@ nav a {
   display: block;
   padding: 16px 32px;
   gap: 10px;
-  margin: 48px 635px 188px 636px;
+  margin: 0 auto;
+  margin-top:48px;
   min-width: 169px;
   height: 56px;
 }
@@ -228,7 +229,6 @@ nav a {
 
 .feature {
   width: 100%;
-  padding: 120 0;
   padding: 120px 0;
 }
 
@@ -239,7 +239,6 @@ nav a {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding: 120px 156px;
 }
 
 .feature-item {
@@ -258,8 +257,6 @@ nav a {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
-  padding-top: 72px;
 }
 
 .team-list-item {
