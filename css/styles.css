@@ -129,7 +129,6 @@ button {
   color: #4d5ae5;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-
   margin-right: 76px;
   display: flex;
   align-items: center;
@@ -369,7 +368,6 @@ address {
 }
 
 .feature-item {
-  width: calc((100% - 72px) / 4); 
   height: auto;
 }
 
