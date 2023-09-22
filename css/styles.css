@@ -138,6 +138,10 @@ nav a {
 }
 
 /*============ Contacts ============ */
+address {
+  display: flex;
+}
+
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -251,11 +255,11 @@ nav a {
   align-items: center;
   gap: 24px;
   padding: 120px 156px;
-  width: calc((100% - 72px) / 4);
+
 }
 
 .feature-item {
-  width: calc((100% - 72px) / 4);
+
   height: auto;
 }
 
